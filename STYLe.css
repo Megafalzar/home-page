@@ -1,0 +1,52 @@
+body
+{
+    overflow: hidden;
+}
+#mainBG
+{
+    position: absolute;
+    top: -1em;
+    left: -7.5em;
+    width: 95em;
+    height: 43em;
+    z-index:-1;
+}
+#gif
+{
+    position: relative;
+    z-index: 99;
+    left: 25.9em;
+    top: 6.9em;
+    border: solid;
+    border-color: lightskyblue;
+    border-width: 0.3em;
+    
+}
+#List
+{
+    display: none;
+}
+#gif:hover ~ #List, #List:hover
+{
+    display: block;
+    background-color: lightskyblue;
+    height: 8.5em;
+    width: 31.85em;
+    position: relative;
+    left: 25.9em;
+    top: 6em;
+}
+#List:hover
+{
+    display:block;
+}
+a:link
+{
+    color:black;
+    text-decoration: none;
+}
+a:visited
+{
+    color:black;
+    text-decoration: none;
+}
